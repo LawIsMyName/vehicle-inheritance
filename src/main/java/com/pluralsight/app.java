@@ -17,6 +17,19 @@ public class app {
         myCar.setFuelCapacity(15);
         myCar.setNumberOfDoors(4);
 
+        SemiTruck bigTruck = new SemiTruck();
+        bigTruck.setColor("Black");
+        bigTruck.setNumberOfPassengers(2);
+        bigTruck.setCargoCapacity(20000);
+        bigTruck.setFuelCapacity(300);
+        bigTruck.setHasTrailer(true);
+
+        Hovercraft hover = new Hovercraft();
+        hover.setColor("White");
+        hover.setNumberOfPassengers(6);
+        hover.setCargoCapacity(500);
+        hover.setFuelCapacity(50);
+        hover.setAirPressure(25.5);
 
     }
 }
