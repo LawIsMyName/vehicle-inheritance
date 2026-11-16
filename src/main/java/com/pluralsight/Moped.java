@@ -2,13 +2,13 @@ package com.pluralsight;
 
 public class Moped extends Vehicle{
 
-    private boolean hasPedals;
+    private boolean hasBell;
 
-    public boolean hasPedals() {
-        return hasPedals;
+    public boolean hasBell() {
+        return hasBell;
     }
 
-    public void setHasPedals(boolean hasPedals) {
-        this.hasPedals = hasPedals;
+    public void setHasBell(boolean hasPedals) {
+        this.hasBell = hasPedals;
     }
 }
