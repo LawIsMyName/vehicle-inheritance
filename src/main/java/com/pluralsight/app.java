@@ -51,5 +51,8 @@ public class app {
         System.out.println("Passengers: " + hover.getNumberOfPassengers());
         System.out.println("Air Pressure: " + hover.getAirPressure());
 
+        // A Moped can call setColor() because it extends Vehicle.
+        // Moped inherits the public methods from Vehicle,
+        // so we do not need to create a separate Vehicle object.
     }
 }
