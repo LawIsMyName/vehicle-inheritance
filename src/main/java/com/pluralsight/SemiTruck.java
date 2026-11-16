@@ -4,7 +4,7 @@ public class SemiTruck extends Vehicle {
 
     private boolean hasTrailer;
 
-    public boolean HasTrailer() {
+    public boolean hasTrailer() {
         return hasTrailer;
     }
 

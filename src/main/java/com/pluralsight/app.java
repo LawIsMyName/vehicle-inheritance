@@ -31,5 +31,25 @@ public class app {
         hover.setFuelCapacity(50);
         hover.setAirPressure(25.5);
 
+        System.out.println("---- MOPED ----");
+        System.out.println("Color: " + slowRide.getColor());
+        System.out.println("Passengers: " + slowRide.getNumberOfPassengers());
+        System.out.printf("Has a bell: %s%n", slowRide.hasBell());
+
+        System.out.println("\n---- CAR ----");
+        System.out.println("Color: " + myCar.getColor());
+        System.out.println("Passengers: " + myCar.getNumberOfPassengers());
+        System.out.println("Doors: " + myCar.getNumberOfDoors());
+
+        System.out.println("\n---- SEMI TRUCK ----");
+        System.out.println("Color: " + bigTruck.getColor());
+        System.out.println("Passengers: " + bigTruck.getNumberOfPassengers());
+        System.out.printf("Has Trailer: %s%n", bigTruck.hasTrailer());
+
+        System.out.println("\n---- HOVERCRAFT ----");
+        System.out.println("Color: " + hover.getColor());
+        System.out.println("Passengers: " + hover.getNumberOfPassengers());
+        System.out.println("Air Pressure: " + hover.getAirPressure());
+
     }
 }
