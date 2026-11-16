@@ -3,11 +3,18 @@ package com.pluralsight;
 public class app {
     public static void main(String[] args) {
 
-
         Moped slowRide = new Moped("Red", 1, 0, 5);
+        slowRide.setHasBell(true);
+
         Car myCar = new Car("Blue", 5, 400, 15);
+        myCar.setNumberOfDoors(4);
+
         SemiTruck bigTruck = new SemiTruck("Black", 2, 20000, 300);
+        bigTruck.setHasTrailer(true);
+
         Hovercraft hover = new Hovercraft("White", 6, 500, 50);
+        hover.setAirPressure(25.5);
+
 
         System.out.println("---- MOPED ----");
         System.out.println("Color: " + slowRide.getColor());
