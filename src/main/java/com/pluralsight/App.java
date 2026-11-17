@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class app {
+public class App {
     public static void main(String[] args) {
 
         Moped slowRide = new Moped("Red", 1, 0, 5);
